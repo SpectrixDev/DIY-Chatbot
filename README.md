@@ -11,7 +11,45 @@ If you're just interested in training it in a console, there's that too (and it'
 
 ### How does it work? 
 
-Coming soon lol 
+It used SQL and Python to store a table of word associations for responses to a previous sentence and uses this to match future responses. It's inspired by Cleverbot's method of learning.
+
+It learns from the previous conversation with the user. It maintains a database of previous replies to the same questions and responds based on queries from the database.
+
+It does not extract the meaning of sentences written by the user. When the user types a message, *it is understood as an answer to previous statement made by the chatbot.* The sentence typed by the user will then be associated with the words present in the previous message. The human message is decomposed in words. The program will try to identify which sentences correspond best to those words, according to the answers that the user gave it. 
+
+**Here's an example:** Let's say this bot knows nothing at the beginning, and just says "Hello" once, without knowing what that means. 
+
+```bash
+Bot: Hello
+User: Hey, how are you?
+```
+
+The bot now knows that if a user tells it, "Hello", it can respond with, "Hey, how are you". But now the bot doesn't know how to respond to, "Hey, how are you?", so it selects something random that it doesn't know in order to learn more. In this case, the only thing it doesn't know is how to respond to the previous question. So this will happen:
+
+```bash
+User: Hey, how are you? 
+Bot: Hey, how are you? 
+User: I'm fine thanks, how are you? 
+```
+
+Eventually (and at a fast rate), it will know a lot more answers, and barely repeats the user. *It doesn't just repeat the same thing that the user says that it doesn't know. Once it's been chatted with enough, it will only ask what the user asked later on.* It might be hard to understand, but once you use it you'll see what I mean.
+
+**Here's one more example:**
+
+```bash
+User: I'm fine thanks, how are you? 
+Bot: I'm fine thanks, how are you? 
+User: I'm fine. How are you? 
+Bot: I'm fine thanks, how are you? 
+User: I'm good. 
+Bot: I'm fine. How are you? 
+User: Doing good. 
+Bot: I'm good.
+```
+
+As you can see, it's learnt only from user input. 
+
+
 
 ## Setting up
 
