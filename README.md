@@ -51,7 +51,7 @@ As you can see, it's learnt only from user input.
 
 ## Setting up
 
-Set up is very easy and fast. However there's extra steps depending on what you want to do. 
+Setup is very easy and fast. However there's extra steps depending on what you want to do. 
 
 ### Basic Setup. 
 
@@ -72,7 +72,11 @@ If you want to start with one of my pretrained models, add it to the Basic Bot f
 
 ### Discord Intergration
 
-> Info coming soon 
+The Discord Intergration allows you to let your bot chat to users in your server in a specific channel.
+
+Fill in the required values in the **config.json** (bot token and channel ID), then simply run **bot.py**.
+
+Not sure how to fill it in? I've provided more detail in [this README](https://github.com/SpectrixOfficial/DIY-Chatbot/blob/master/Discord%20Bot/README.md)
 
 ### Cleverbot thing
 
