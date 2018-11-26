@@ -5,7 +5,7 @@ from collections import Counter
 from string import punctuation
 from math import sqrt
 
-connection = sqlite3.connect('chatbot.sqlite')
+connection = sqlite3.connect('botBrain.sqlite')
 cursor = connection.cursor()
 
 with open("config.json") as f:
