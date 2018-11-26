@@ -72,11 +72,15 @@ If you want to start with one of my pretrained models, add it to the Basic Bot f
 
 ### Discord Intergration
 
-The Discord Intergration allows you to let your bot chat to users in your server in a specific channel.
+**The Discord Intergration allows you to let your bot chat to users in your server in a specific channel.**
 
 Fill in the required values in the **config.json** (bot token and channel ID), then simply run **bot.py**.
 
 Not sure how to fill it in? I've provided more detail in [this README](https://github.com/SpectrixOfficial/DIY-Chatbot/blob/master/Discord%20Bot/README.md)
+
+**Here's an example:**
+
+![](https://cdn.discordapp.com/attachments/478201257417244675/516637578167058448/unknown.png)
 
 ### Cleverbot thing
 
