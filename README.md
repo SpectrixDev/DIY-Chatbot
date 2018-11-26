@@ -1,5 +1,5 @@
 # DIY-Chatbot
-> A lightweight chatbot that knows nothing and has to learn from scratch. Using sqlite and python. Also comes with a Discord intergration and custom premade models if needed
+> A lightweight chatbot that knows nothing and has to learn from scratch. Using sqlite and python. Also comes with a Discord intergration and custom Pre-Made Models.
 
 ## Introduction
 
@@ -82,9 +82,9 @@ Not sure how to fill it in? I've provided more detail in [this README](https://g
 
 ![](https://cdn.discordapp.com/attachments/478201257417244675/516637578167058448/unknown.png)
 
-### Premade Models
+### Pre-Made Models
 
-**I've created my own premade models for everyone**, so if you *don't feel like compeltely training yourself, it can have a small headstart.* You can find them in the **Premade Models** folder. ~~These are essentially a variety of different brains ;)~~ You don't have to use these, and I'll be adding more/training them more. These are created by letting my bot chat to other chatbots, as well as humans. It uses mostly correct grammar and is pretty good.
+**I've created my own premade models for everyone**, so if you *don't feel like compeltely training yourself, it can have a small headstart.* You can find them in the **Pre-Made Models** folder. ~~These are essentially a variety of different brains ;)~~ You don't have to use these, and I'll be adding more/training them more. These are created by letting my bot chat to other chatbots, as well as humans. It uses mostly correct grammar and is pretty good.
 
 If you'd like to use them, put them in the same directory as the bot's main file, and name it **botBrain.sqlite**. The bot will still learn from users after starting off with this file.
 
