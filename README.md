@@ -19,14 +19,14 @@ It does not extract the meaning of sentences written by the user. When the user 
 
 **Here's an example:** Let's say this bot knows nothing at the beginning, and just says "Hello" once, without knowing what that means. 
 
-```bash
+```
 Bot: Hello
 User: Hey, how are you?
 ```
 
 The bot now knows that if a user tells it, "Hello", it can respond with, "Hey, how are you". But now the bot doesn't know how to respond to, "Hey, how are you?", so it selects something random that it doesn't know in order to learn more. In this case, the only thing it doesn't know is how to respond to the previous question. So this will happen:
 
-```bash
+```
 User: Hey, how are you? 
 Bot: Hey, how are you? 
 User: I'm fine thanks, how are you? 
@@ -36,7 +36,7 @@ Eventually (and at a fast rate), it will know a lot more answers, and barely rep
 
 **Here's one more example:**
 
-```bash
+```
 User: I'm fine thanks, how are you? 
 Bot: I'm fine thanks, how are you? 
 User: I'm fine. How are you? 
@@ -49,15 +49,11 @@ Bot: I'm good.
 
 As you can see, it's learnt only from user input. 
 
-
-
 ## Setting up
-
 
 Set up is very easy and fast. However there's extra steps depending on what you want to do. 
 
 ### Basic Setup. 
-
 
 1. Firstly, *clone the repo or download the zip* (obviously).
 
@@ -81,7 +77,3 @@ If you want to start with one of my pretrained models, add it to the Basic Bot f
 ### Cleverbot thing
 
 Aaaa coming soon I'm not done this readme why are you reading, I'm on mobile in class REEE
-
-
-
-
