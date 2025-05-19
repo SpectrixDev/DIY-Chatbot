@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# DIY-Chatbot data
+data/botBrain.sqlite
+data/botBrain.db
+data/*.sqlite3
+!data/pre_made_models/
